@@ -15,6 +15,7 @@ def hello():
     """
     Home Page
     """
+
     return render_template("pages/home.jinja")
 
 
@@ -24,4 +25,5 @@ def about():
     """
     About page
     """
+
     return render_template("pages/about.jinja")
